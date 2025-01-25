@@ -4,7 +4,7 @@
   <TopMenubar />
   <GraphCanvas @ready="onGraphReady" />
   <GlobalToast />
-  <UnloadWindowConfirmDialog />
+  <UnloadWindowConfirmDialog v-if="!isElectron()" />
   <BrowserTabTitle />
   <MenuHamburger />
 </template>
@@ -94,6 +94,9 @@ if (isElectron()) {
             `execution:${task.displayStatus.toLowerCase()}`,
             1
           )
+          electronAPI().Events.trackEvent('execution', {
+            status: task.displayStatus.toLowerCase()
+          })
         })
     },
     { deep: true }

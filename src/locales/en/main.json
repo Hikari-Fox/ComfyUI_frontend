@@ -77,7 +77,7 @@
   },
   "issueReport": {
     "submitErrorReport": "Submit Error Report (Optional)",
-    "provideEmail": "Give us your email (Optional)",
+    "provideEmail": "Give us your email (optional)",
     "provideAdditionalDetails": "Provide additional details (optional)",
     "stackTrace": "Stack Trace",
     "systemStats": "System Stats",
@@ -85,7 +85,11 @@
     "notifyResolve": "Notify me when resolved",
     "helpFix": "Help Fix This",
     "rating": "Rating",
-    "feedbackTitle": "Help us improve ComfyUI by providing feedback"
+    "feedbackTitle": "Help us improve ComfyUI by providing feedback",
+    "validation": {
+      "maxLength": "Message too long",
+      "invalidEmail": "Please enter a valid email address"
+    }
   },
   "color": {
     "default": "Default",
@@ -392,6 +396,7 @@
     "About ComfyUI": "About ComfyUI",
     "Comfy-Org Discord": "Comfy-Org Discord",
     "ComfyUI Docs": "ComfyUI Docs",
+    "ComfyUI Forum": "ComfyUI Forum",
     "ComfyUI Issues": "ComfyUI Issues",
     "Interrupt": "Interrupt",
     "Load Default Workflow": "Load Default Workflow",
@@ -687,5 +692,21 @@
     "UPSCALE_MODEL": "UPSCALE_MODEL",
     "VAE": "VAE",
     "WEBCAM": "WEBCAM"
+  },
+  "maintenance": {
+    "allOk": "No issues were detected.",
+    "status": "Status",
+    "detected": "Detected",
+    "refreshing": "Refreshing",
+    "None": "None",
+    "OK": "OK",
+    "Skipped": "Skipped",
+    "showManual": "Show maintenance tasks",
+    "confirmTitle": "Are you sure?",
+    "error": {
+      "toastTitle": "Task error",
+      "taskFailed": "Task failed to run.",
+      "defaultDescription": "An error occurred while running a maintenance task."
+    }
   }
 }

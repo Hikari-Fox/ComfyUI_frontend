@@ -548,12 +548,22 @@ export function useCoreCommands(): ComfyCommand[] {
       function: () => {
         dialogService.showIssueReportDialog({
           title: t('g.feedback'),
+          subtitle: t('issueReport.feedbackTitle'),
           panelProps: {
             errorType: 'Feedback',
-            title: t('issueReport.feedbackTitle'),
             defaultFields: ['SystemStats', 'Settings']
           }
         })
+      }
+    },
+    {
+      id: 'Comfy.Help.OpenComfyUIForum',
+      icon: 'pi pi-comments',
+      label: 'Open ComfyUI Forum',
+      menubarLabel: 'ComfyUI Forum',
+      versionAdded: '1.8.2',
+      function: () => {
+        window.open('https://forum.comfy.org/', '_blank')
       }
     }
   ]

@@ -255,7 +255,27 @@
     "rating": "評価",
     "stackTrace": "スタックトレース",
     "submitErrorReport": "エラーレポートを提出する（オプション）",
-    "systemStats": "システム統計"
+    "systemStats": "システム統計",
+    "validation": {
+      "invalidEmail": "有効なメールアドレスを入力してください",
+      "maxLength": "メッセージが長すぎます"
+    }
+  },
+  "maintenance": {
+    "None": "なし",
+    "OK": "OK",
+    "Skipped": "スキップされました",
+    "allOk": "問題は検出されませんでした。",
+    "confirmTitle": "よろしいですか？",
+    "detected": "検出されました",
+    "error": {
+      "defaultDescription": "メンテナンスタスクの実行中にエラーが発生しました。",
+      "taskFailed": "タスクの実行に失敗しました。",
+      "toastTitle": "タスクエラー"
+    },
+    "refreshing": "更新中",
+    "showManual": "メンテナンスタスクを表示",
+    "status": "ステータス"
   },
   "menu": {
     "autoQueue": "自動キュー",
@@ -293,6 +313,7 @@
     "Collapse/Expand Selected Nodes": "選択したノードの折りたたみ/展開",
     "Comfy-Org Discord": "Comfy-Org Discord",
     "ComfyUI Docs": "ComfyUIのドキュメント",
+    "ComfyUI Forum": "ComfyUI フォーラム",
     "ComfyUI Issues": "ComfyUIの問題",
     "Convert selected nodes to group node": "選択したノードをグループノードに変換",
     "Desktop User Guide": "デスクトップユーザーガイド",

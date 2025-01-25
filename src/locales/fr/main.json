@@ -255,7 +255,27 @@
     "rating": "Évaluation",
     "stackTrace": "Trace de la pile",
     "submitErrorReport": "Soumettre un rapport d'erreur (Facultatif)",
-    "systemStats": "Statistiques du système"
+    "systemStats": "Statistiques du système",
+    "validation": {
+      "invalidEmail": "Veuillez entrer une adresse e-mail valide",
+      "maxLength": "Message trop long"
+    }
+  },
+  "maintenance": {
+    "None": "Aucun",
+    "OK": "OK",
+    "Skipped": "Ignoré",
+    "allOk": "Aucun problème détecté.",
+    "confirmTitle": "Êtes-vous sûr ?",
+    "detected": "Détecté",
+    "error": {
+      "defaultDescription": "Une erreur s'est produite lors de l'exécution d'une tâche de maintenance.",
+      "taskFailed": "La tâche a échoué.",
+      "toastTitle": "Erreur de tâche"
+    },
+    "refreshing": "Actualisation",
+    "showManual": "Afficher les tâches de maintenance",
+    "status": "Statut"
   },
   "menu": {
     "autoQueue": "File d'attente automatique",
@@ -293,6 +313,7 @@
     "Collapse/Expand Selected Nodes": "Réduire/Étendre les nœuds sélectionnés",
     "Comfy-Org Discord": "Discord de Comfy-Org",
     "ComfyUI Docs": "Docs de ComfyUI",
+    "ComfyUI Forum": "Forum ComfyUI",
     "ComfyUI Issues": "Problèmes de ComfyUI",
     "Convert selected nodes to group node": "Convertir les nœuds sélectionnés en nœud de groupe",
     "Desktop User Guide": "Guide de l'utilisateur de bureau",
